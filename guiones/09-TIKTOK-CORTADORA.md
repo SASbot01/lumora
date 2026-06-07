@@ -1,48 +1,75 @@
-# LUMORA — Guiones de TikTok: CORTADORA (graba ya)
+# LUMORA — ADS para JERICO (barbero pro)
 
-## Setup mínimo (con lo que tienes)
-- Móvil en vertical, **luz buena** (ventana de día o aro de luz).
-- Graba en 4K si puedes. Plano cercano a la máquina y a la cabeza/barba.
-- **Audio limpio** o pon música trending + texto en pantalla.
-- Sube **1-3 vídeos/día**. El que pegue → lo conviertes en anuncio.
-- Claims OK: "acabado de barbería", "apura a 0mm", "ahorras en cortes". Nada falso.
+> **Todos son ANUNCIOS pagados (creativos para TikTok/Meta Ads).** Los graba **Jerico**, barbero profesional en barbería de lujo (@jericostyle).
+> Su arma = **autoridad real**. Un ad donde un barbero de verdad valida el producto convierte muchísimo más.
+> Grábalos en tu barbería, con clientes reales. Estilo UGC/auténtico (NO parezca anuncio "de marca").
 
----
+## Estructura de un ad ganador (sigue este orden SIEMPRE)
+1. **HOOK <2s** — para el dedo (autoridad + visual fuerte).
+2. **PROBLEMA/CONTEXTO** — el dolor (pagar de más, corte de casa cutre).
+3. **PRODUCTO + DEMO** — la máquina en acción en un cliente real.
+4. **PRUEBA** — tu veredicto de barbero (lo que sella la confianza).
+5. **OFERTA + CTA** — "-10% hoy, link en bio / Compra ahora".
 
-## GUION 1 — Dinero (el que más convierte)
-- **[0-2s]** (enseñas la máquina a cámara) Texto: *"Llevo 1 año sin pisar la barbería."*
-- **[2-7s]** "15€ cada dos semanas = +400€ al año. ¿Para qué?"
-- **[7-14s]** (haces un degradado rápido en tu nuca/lateral) "Con esto me lo hago yo. Apura a 0mm, degradado limpio."
-- **[14-20s]** (resultado final en el espejo) "Se pagó sola en un mes." CTA: *"Link en bio."*
-
-## GUION 2 — Satisfying / ASMR del corte
-- **[0-2s]** Primerísimo plano de la cuchilla encendida. Texto: *"El sonido más satisfactorio 🔊"*
-- **[2-12s]** Plano cerrado del corte: líneas limpias, contorno de barba, degradado. Sin hablar, solo el zumbido + música.
-- **[12-18s]** Antes/después rápido. CTA: *"La tienes en bio."*
-
-## GUION 3 — "POV te cortas tú por primera vez"
-- **[0-3s]** Texto: *"POV: dejas de depender del barbero."*
-- **[3-10s]** Tutorial veloz: peine guía → bajas el largo → quitas guía para el contorno.
-- **[10-16s]** "Más fácil de lo que crees. En 10 min impecable."
-- **[16-20s]** CTA: *"Empieza tú. Link en bio."*
-
-## GUION 4 — Colaboración con TU PELUQUERO (oro puro)
-- **[0-3s]** "Le doy una cortadora de 40€ a un BARBERO PRO. ¿Qué opina?"
-- **[3-12s]** Él la prueba en un cliente real, hace un degradado, comenta la potencia/el apurado.
-- **[12-18s]** Veredicto del profesional: "Para casa, brutal."
-- **[18-22s]** CTA: *"Aprobada por barberos. Link en bio."*
-> Este es el más potente: autoridad real + contenido fácil. Grábalo en su local.
-
-## GUION 5 — Regalo / ocasión
-- **[0-3s]** Texto: *"El regalazo para hombre que no falla."*
-- **[3-10s]** Unboxing rápido + lo bien que queda + lo que ahorra.
-- **[10-16s]** "Cumpleaños, Reyes, 'porque sí'. Acierto seguro."
-- **[16-20s]** CTA: *"Link en bio."*
+## Reglas técnicas
+- Vertical 9:16, subtítulos siempre, música trending, buena luz.
+- Hook con texto en pantalla. Marca/logo solo al final (no al inicio: mata el alcance).
+- **Para Ads:** graba 3-5 hooks distintos del mismo vídeo para testear. Audiencia AMPLIA (hombres 18-45). Deja aprender 3-4 días.
+- Claims OK: "acabado de barbería", "apura a 0mm". Nada falso.
 
 ---
 
-## Para los ads (cuando uno pegue)
-- Coge el orgánico con **más retención/ventas** y súbelo como anuncio TikTok/Meta.
-- Estructura: Hook (dinero/satisfying) → Producto (apura 0mm, inalámbrica) → Prueba (tú o el barbero) → CTA.
-- Audiencia AMPLIA (hombres 18-45 España). Déjalo aprender 3-4 días sin tocar.
-- Idea de oferta de salida: **pack "se paga sola"** (cortadora + aceite/peine) para subir ticket.
+## AD 1 — EL TEST DEL BARBERO 💈 (creativo principal)
+- **HOOK [0-3s]** (a cámara, en tu silla) "Soy barbero. Llevo [X] años cortando. Pruebo una cortadora de 40€."
+- **DEMO [3-12s]** (la usas en un cliente real: degradado + contornos, plano cerrado)
+- **PRUEBA [12-17s]** "Para casa esto es una barbaridad. Apura a 0mm y no se calienta."
+- **OFERTA+CTA [17-20s]** "-10% hoy. Link en bio." (texto: ENVÍO 24-72H · DEVOLUCIÓN 14 DÍAS)
+- *Variantes de hook a grabar:* "No me creía que una máquina de 40€ hiciera esto." / "Barbero prueba la cortadora viral."
+
+## AD 2 — TRANSFORMACIÓN / DEGRADADO 🔥
+- **HOOK [0-2s]** Nuca del cliente sin definir. Texto: "Mira esta transformación."
+- **DEMO [2-13s]** Degradado completo con la máquina, ritmo rápido + sonido de cuchilla.
+- **PRUEBA [13-17s]** Resultado final + "Y esto con una máquina de 40€, no de 200€."
+- **OFERTA+CTA [17-20s]** "La tienes en bio con -10%."
+
+## AD 3 — AHORRO 💸 (el de mejor ROI normalmente)
+- **HOOK [0-3s]** "Soy barbero y te voy a hacer perder… a tu barbero." (guiño)
+- **PROBLEMA [3-9s]** "Pagas 15€ x2 al mes. +400€ al año. La mitad son repasos que te haces tú."
+- **DEMO [9-15s]** (contorno/repaso a 0mm en 2 min)
+- **OFERTA+CTA [15-20s]** "Se paga sola en un mes. -10% en bio."
+
+## AD 4 — 3 ERRORES ❌ (educativo, alto guardado)
+- **HOOK [0-2s]** "3 errores por los que tu corte en casa parece de casa."
+- **CUERPO [2-13s]** Error 1 presionar de más · 2 mal ángulo · 3 máquina mala (lo muestras).
+- **PRUEBA [13-17s]** "Con técnica + buena máquina: nivel barbería."
+- **OFERTA+CTA [17-20s]** "La que uso, en bio. -10%."
+
+## AD 5 — 40€ vs 200€ ⚖️ (comparativa honesta)
+- **HOOK [0-3s]** "¿Una cortadora de 40€ aguanta a mi máquina de 200€?"
+- **DEMO [3-14s]** Comparas apurado/potencia/acabado en cliente real.
+- **PRUEBA [14-17s]** "Para casa, la de 40€ es brutal. De verdad."
+- **OFERTA+CTA [17-20s]** "La de 40€, en bio. -10%."
+
+## AD 6 — STORYTIME DE MARCA 💈 (para retargeting / marca)
+- **HOOK [0-3s]** "Soy barbero en una barbería de lujo y monté mi propia marca."
+- **CUERPO [3-12s]** "Veo a tíos pagar 400€/año por repasos. Quería darles la herramienta buena sin el precio del salón."
+- **PRUEBA [12-16s]** "Esto es Lumora. La máquina que yo aprobaría."
+- **OFERTA+CTA [16-20s]** "Verte impecable cada día empieza en bio."
+
+---
+
+## 🪝 BANCO DE HOOKS (voz de barbero, para testear en ads)
+- "Soy barbero. Pruebo una cortadora de 40€."
+- "Barbero prueba la cortadora viral de TikTok."
+- "Lo que tu barbero no te cuenta…"
+- "3 errores por los que tu corte parece de casa."
+- "Máquina de 40€ vs la mía de 200€."
+- "Deja de tirar 400€ al año en repasos."
+- "Llevo [X] años cortando y esto me ha sorprendido."
+
+## 🎯 CÓMO LANZAR LOS ADS
+1. Sube 3-5 creativos (empieza por AD 1, 2 y 3).
+2. **TikTok Ads / Meta Ads**, objetivo: ventas (compras). Audiencia amplia, hombres 18-45 España.
+3. Presupuesto test: ~10-15€/día por creativo, 3-4 días sin tocar.
+4. Mata el que no rinda, **escala el ganador** (sube presupuesto poco a poco) y graba variantes de su hook.
+5. **Retargeting** (AD 6 + ofertas) a quien visitó la web y no compró.
