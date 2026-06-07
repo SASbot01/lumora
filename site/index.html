@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUMORA — Corte de barbero. En tu casa.</title>
+<meta name="description" content="Cortadora profesional Zero-Gapped. El acabado de barbería en casa, sin gastarte una fortuna.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="logo.svg">
+</head>
+<body>
+
+<div class="aurora"></div>
+<div class="bg-glow"></div>
+<div class="grain"></div>
+<div class="cursor"></div><div class="cursor-dot"></div>
+
+<header id="hd">
+  <nav class="wrap">
+    <a class="logo" href="#"><img src="logo.svg" alt="LUMORA"></a>
+    <ul>
+      <li><a href="#tienda">Tienda</a></li>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#marca">Nosotros</a></li>
+    </ul>
+    <a href="#producto" class="btn nav-cta">Comprar</a>
+  </nav>
+</header>
+
+<!-- HERO 3D -->
+<section class="hero">
+  <canvas id="hero3d"></canvas>
+  <div class="layer veil"></div>
+  <div class="wrap">
+    <span class="badge reveal">★ Pro barber en casa</span>
+    <h1 class="reveal d1 neon">Corte de barbero.<br><span class="stroke">En tu casa.</span></h1>
+    <p class="sub reveal d2">La cortadora profesional <b>Zero-Gapped</b> que apura a 0mm. El acabado de barbería, sin horarios, sin colas y sin gastarte una fortuna cada mes.</p>
+    <div class="cta-row reveal d3">
+      <a href="#producto" class="btn">Quiero la mía →</a>
+      <a href="#producto" class="btn ghost">Ver la cortadora</a>
+    </div>
+    <p class="micro reveal d4">Envío 24-72h · Pago seguro · Se paga sola en un mes</p>
+  </div>
+  <div class="scroll-hint">Scroll ↓</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee"><div>
+  <span>Acabado de barbería</span><span>Zero-Gapped 0mm</span><span>Inalámbrica</span><span>Cortes ilimitados</span><span>Se paga sola</span>
+  <span>Acabado de barbería</span><span>Zero-Gapped 0mm</span><span>Inalámbrica</span><span>Cortes ilimitados</span><span>Se paga sola</span>
+</div></div>
+
+<!-- PROBLEM (glass + bignum) -->
+<section class="block">
+  <div class="wrap" style="text-align:center">
+    <div class="eyebrow reveal" style="display:inline-block">Haz números</div>
+    <h2 class="reveal d1">El barbero te cuesta<br>una fortuna.</h2>
+    <div class="glass reveal d2" style="max-width:720px;margin:34px auto 0">
+      <div class="bignum neon">+400€</div>
+      <p class="lead" style="margin:14px auto 0">es lo que gastas al año en cortes. Citas, esperas, desplazamientos… para un simple repaso.</p>
+      <p style="margin-top:18px;color:var(--text);font-weight:700;font-size:20px">Una cortadora. Cortes ilimitados. <span class="gold">Se paga sola en un mes.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORIA / IDENTIDAD -->
+<section class="block" id="historia">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="founder-card glass">
+        <div class="av-i mono">JS</div>
+        <div>
+          <div style="font-weight:800;font-size:22px">Jerico</div>
+          <div class="who" style="color:var(--muted)">Barbero pro · Barbería de lujo</div>
+          <a class="ighandle" href="https://instagram.com/jericostyle" target="_blank" rel="noopener">@jericostyle ↗</a>
+        </div>
+      </div>
+      <p class="micro" style="color:var(--muted);margin-top:14px">📸 Aquí irá tu foto real cortando en la barbería.</p>
+    </div>
+    <div class="reveal d2">
+      <div class="eyebrow">La historia</div>
+      <h2>De una barbería de lujo<br>a tu casa.</h2>
+      <p class="lead">Soy <b>Jerico</b>. Llevo años detrás de la silla en una de las barberías de lujo de la ciudad, máquina en mano, dando forma a miles de cabezas.</p>
+      <p class="pullquote">"Lo que separa un corte del montón de uno que te cambia la cara no es magia. Son las herramientas correctas."</p>
+      <p class="lead">Creé Lumora para sacar la barbería del salón y meterla en tu casa: las mismas máquinas que uso yo, sin el precio de la silla. Para que vayas impecable cada día — no solo el día que pisas la barbería.</p>
+      <p class="signature">— Jerico, fundador de Lumora</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="block" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal d1"><div class="num" data-count="0">0</div><div class="lbl">mm Zero-gapped</div></div>
+      <div class="stat reveal d2"><div class="num" data-count="180">0</div><div class="lbl">Min de autonomía</div></div>
+      <div class="stat reveal d3"><div class="num" data-count="7200">0</div><div class="lbl">Cortes/min (spm)</div></div>
+      <div class="stat reveal d4"><div class="num" data-count="40">0</div><div class="lbl">€/mes que ahorras</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCT -->
+<section class="block" id="producto">
+  <div class="wrap product">
+    <div class="reveal">
+      <div class="media" id="prodMedia">
+        <div class="glow"></div>
+        <span class="badge pill">Más vendido</span>
+        <img id="mainImg" src="https://ae01.alicdn.com/kf/Sb8bc199e7de649be89783a315270a096f.jpg" alt="Cortadora Kemei 2299 Zero-Gapped">
+        <div class="seal">
+          <svg viewBox="0 0 120 120" class="sealsvg" xmlns="http://www.w3.org/2000/svg">
+            <defs><path id="sc" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+            <circle cx="60" cy="60" r="57" fill="#141414" stroke="#C9A24B" stroke-width="2"/>
+            <circle cx="60" cy="60" r="48" fill="none" stroke="#C9A24B" stroke-width="1" stroke-dasharray="2 3"/>
+            <text font-size="9.2" fill="#C9A24B" font-weight="bold" letter-spacing="2.5"><textPath href="#sc" startOffset="0">CALIDAD GARANTIZADA · LUMORA · </textPath></text>
+            <text x="60" y="52" text-anchor="middle" fill="#FBE7B0" font-size="22">★</text>
+            <text x="60" y="74" text-anchor="middle" fill="#F4F1EA" font-size="13" font-family="Playfair Display" font-weight="800" letter-spacing="1">PRO</text>
+          </svg>
+        </div>
+      </div>
+      <div class="thumbs">
+        <img onclick="swapMain(this)" src="https://ae01.alicdn.com/kf/S1d604c4067154e1cbc3c1c533a2d97d1k.jpg" alt="">
+        <img onclick="swapMain(this)" src="https://ae01.alicdn.com/kf/S8b71797ec5b746148688afdf5ef9d709k.jpg" alt="">
+        <img onclick="swapMain(this)" src="https://ae01.alicdn.com/kf/S72b883739f4f4b8bad85507e705fb644e.jpg" alt="">
+        <img onclick="swapMain(this)" src="https://ae01.alicdn.com/kf/Sf4b3c0149a15485cae24dc1b8f1d070dY.jpg" alt="">
+      </div>
+    </div>
+    <div class="reveal d2">
+      <div class="eyebrow">Lumora · Cut</div>
+      <h2>Cortadora Pro Zero-Gapped</h2>
+      <div class="stars">★★★★★ <span style="color:var(--muted);font-size:14px">(214 reseñas)</span></div>
+      <div class="price">39,95 € <small>54,95 €</small></div>
+      <p style="color:var(--muted)">El acabado de barbería, en tu mano. Cuchilla a 0mm para degradados y contornos perfectos. La que usan los que siempre van impecables.</p>
+      <ul>
+        <li>Cuchilla T Zero-Gapped: apura a 0mm</li>
+        <li>Motor electromagnético 7.200 spm, silencioso</li>
+        <li>Batería 1200mAh · hasta 180 min · USB</li>
+        <li>IPX7: lavable bajo el grifo</li>
+        <li>3 peines guía (1, 2 y 3 mm)</li>
+      </ul>
+      <button class="btn" onclick="addCart()">Añadir al carrito →</button>
+      <div class="trustbadges">
+        <div><span class="ti">🛡️</span> Calidad garantizada</div>
+        <div><span class="ti">🔒</span> Pago 100% seguro</div>
+        <div><span class="ti">🚚</span> Envío 24-72h</div>
+        <div><span class="ti">↩️</span> 14 días de devolución</div>
+      </div>
+      <p class="micro" style="margin-top:14px">✔ Aprobada por un barbero profesional · @jericostyle</p>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP / LÍNEA -->
+<section class="block" id="tienda" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="eyebrow reveal">La línea Lumora</div>
+    <h2 class="reveal d1">Corte. Piel. Cabello.</h2>
+    <p class="lead reveal d2">Todo lo que un hombre necesita para verse en su mejor versión. Productos reales, fotos reales.</p>
+    <div class="shop">
+
+      <div class="card reveal d1">
+        <div class="ph"><span class="badge pill tagp">Más vendido</span>
+          <img src="https://ae01.alicdn.com/kf/S1d604c4067154e1cbc3c1c533a2d97d1k.jpg" alt="Cortadora Pro">
+        </div>
+        <div class="body">
+          <div class="cat">Cut · Barber tool</div>
+          <h3>Cortadora Pro Zero-Gapped</h3>
+          <div class="stars">★★★★★ <span style="color:var(--muted)">(214)</span></div>
+          <p>Máquina profesional inalámbrica con cuchilla a 0mm. El acabado del barbero, en tu casa.</p>
+          <ul class="feat"><li>Cuchilla Zero-Gapped (0mm)</li><li>Inalámbrica · USB-C</li><li>Acabado profesional</li></ul>
+          <div class="pricerow"><div class="pr">39,95 € <small>54,95 €</small></div><button class="btn" onclick="addCart()">Añadir →</button></div>
+        </div>
+      </div>
+
+      <div class="card reveal d2">
+        <div class="ph"><span class="badge pill tagp">Skin</span>
+          <img src="https://m.media-amazon.com/images/I/616848STqYL._AC_SL1500_.jpg" alt="Derma Roller de Titanio">
+        </div>
+        <div class="body">
+          <div class="cat">Skin · Microneedling</div>
+          <h3>Derma Roller de Titanio</h3>
+          <div class="stars">★★★★★ <span style="color:var(--muted)">(128)</span></div>
+          <p>540 microagujas de titanio. Mejora el aspecto de la piel y la absorción de tus tratamientos.</p>
+          <ul class="feat"><li>540 microagujas titanio</li><li>Aspecto más firme</li><li>Reutilizable</li></ul>
+          <div class="pricerow"><div class="pr">24,95 € <small>34,95 €</small></div><button class="btn" onclick="addCart()">Añadir →</button></div>
+        </div>
+      </div>
+
+      <div class="card reveal d3">
+        <div class="ph"><span class="badge pill tagp">Hair</span>
+          <img src="https://images.unsplash.com/photo-1676809180101-1f215d615829?w=1000&q=70&auto=format&fit=crop" alt="Sérum capilar">
+        </div>
+        <div class="body">
+          <div class="cat">Hair · Cuidado</div>
+          <h3>Sérum Capilar &amp; Barba</h3>
+          <div class="stars">★★★★★ <span style="color:var(--muted)">(54)</span></div>
+          <p>Fórmula nutritiva que fortalece y cuida cabello y barba, para un aspecto más denso y sano.</p>
+          <ul class="feat"><li>Nutre el cuero cabelludo</li><li>Aspecto más denso</li><li>Apto para barba</li></ul>
+          <div class="pricerow"><div class="pr">22,95 €</div><button class="btn" onclick="addCart()">Añadir →</button></div>
+        </div>
+      </div>
+
+    </div>
+    <p class="micro" style="margin-top:18px;color:var(--muted)">⚠️ Foto del sérum provisional — mándame la real y la cambio. Cortadora y roller ya son fotos reales del producto.</p>
+  </div>
+</section>
+
+<!-- REVIEWS (sin caras stock) -->
+<section class="block" id="resultados">
+  <div class="wrap">
+    <div class="eyebrow reveal">Lo dicen ellos</div>
+    <h2 class="reveal d1">Adiós barbería.</h2>
+    <div class="reviews">
+      <div class="review reveal d1"><div class="top"><div class="av-i">C</div><div><div style="font-weight:700">Carlos M.</div><div class="who">Madrid</div></div></div><div class="stars">★★★★★</div><p>"Llevo 4 meses cortándome yo. He recuperado lo que costó en la primera semana."</p></div>
+      <div class="review reveal d2"><div class="top"><div class="av-i">J</div><div><div style="font-weight:700">Javi R.</div><div class="who">Valencia</div></div></div><div class="stars">★★★★★</div><p>"El apurado a 0mm es de barbería de verdad. Los contornos quedan perfectos."</p></div>
+      <div class="review reveal d3"><div class="top"><div class="av-i">D</div><div><div style="font-weight:700">Dani L.</div><div class="who">Sevilla</div></div></div><div class="stars">★★★★★</div><p>"Potente y silenciosa. La batería aguanta un montón. Brutal por el precio."</p></div>
+    </div>
+    <p class="micro" style="margin-top:18px;color:var(--muted)">* Reseñas de ejemplo — se sustituyen por reseñas reales con foto/vídeo al lanzar.</p>
+  </div>
+</section>
+
+<!-- BRAND -->
+<section class="block brand" id="marca" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="eyebrow reveal" style="display:inline-block">Lumora</div>
+    <h2 class="reveal d1 neon">Tu mejor versión<br>no se hereda.<br><span class="gold">Se trabaja.</span></h2>
+    <p class="reveal d2">Grooming masculino de resultados. Una cosa, bien hecha, que funciona. Tu luz, tu presencia.</p>
+  </div>
+</section>
+
+<!-- EMAIL -->
+<section class="block email">
+  <div class="wrap">
+    <div class="eyebrow reveal" style="display:inline-block">-10% en tu primera compra</div>
+    <h2 class="reveal d1" style="font-size:clamp(28px,4.5vw,46px)">Únete al club</h2>
+    <p class="lead reveal d2" style="margin:0 auto">Déjanos tu email, llévate un <b>-10%</b> y entérate el primero de las novedades.</p>
+    <form class="reveal d3" onsubmit="return subscribe(event)">
+      <input type="email" placeholder="tu@email.com" required>
+      <button class="btn" type="submit">Quiero mi -10%</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div style="max-width:260px">
+        <img src="logo.svg" alt="LUMORA" style="height:40px;margin-bottom:14px">
+        <p>Grooming masculino de resultados. Trabaja tu versión.</p>
+      </div>
+      <div><h4>Tienda</h4><ul><li><a href="#producto">Cortadora Pro</a></li><li><a href="#tienda">Derma Roller</a></li><li><a href="#tienda">Sérum</a></li></ul></div>
+      <div><h4>Ayuda</h4><ul><li><a href="#">Envíos</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">FAQ</a></li><li><a href="#">Contacto</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="#">Privacidad (RGPD)</a></li><li><a href="#">Aviso legal</a></li><li><a href="#">Términos</a></li></ul></div>
+      <div><h4>Síguenos</h4><ul><li><a href="#">TikTok</a></li><li><a href="#">Instagram</a></li></ul></div>
+    </div>
+    <div class="bottom">© 2026 LUMORA · Maqueta local de demostración · Construido por Claude</div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="three-scene.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
