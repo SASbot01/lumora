@@ -19,8 +19,9 @@
 - `05-EMAIL-FLOWS.md` — flujos de email
 - `06-LAUNCH-CHECKLIST.md` — checklist de lanzamiento
 - `07-LOGO-CONCEPT.md` — concepto de logo
-- `08-TIKTOK-SCRIPTS.md` / `09-TIKTOK-CORTADORA.md` — guiones de vídeo
-- `10-REDES-BIOS-Y-GUIONES.md` — bios de IG/TikTok + guiones optimizados
+- `guiones/` — guiones de vídeo y redes:
+  - `08-TIKTOK-SCRIPTS.md` / `09-TIKTOK-CORTADORA.md` — guiones de vídeo
+  - `10-REDES-BIOS-Y-GUIONES.md` — bios de IG/TikTok + guiones optimizados
 
 ## Producto estrella
 Cortadora Pro Zero-Gapped: T-blade 0mm · motor 7.200 spm · batería 1200mAh (~180 min) · IPX7 · 3 peines guía.
