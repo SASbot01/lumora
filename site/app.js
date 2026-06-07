@@ -73,7 +73,13 @@ document.querySelectorAll('.tilt, .product .media').forEach(card=>{
 })();
 
 // ---- Demo actions ----
-function addCart(){alert("🛒 (Demo) Producto añadido al carrito.\nEn la tienda real esto irá a Shopify Checkout con Stripe/PayPal.");}
+// 👉 PEGA AQUÍ tu link de pago (Stripe Payment Link o Shopify) para vender de verdad.
+//    Ej: const CHECKOUT_URL = "https://buy.stripe.com/xxxxx";
+const CHECKOUT_URL = "";
+function addCart(){
+  if(CHECKOUT_URL){ location.href = CHECKOUT_URL; return; }
+  alert("🛒 (Demo) Aún no hay pasarela conectada.\nPega tu link de pago en CHECKOUT_URL (app.js) para empezar a cobrar.");
+}
 function subscribe(e){e.preventDefault();alert("✅ (Demo) ¡Suscrito! En la tienda real esto entra en Klaviyo y dispara el email de -10%.");return false;}
 
 // ---- 3D scenes (cortadoras flotantes) ----
