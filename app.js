@@ -93,6 +93,24 @@ addEventListener('load',()=>{
   ],pCount:190});
 });
 
+// ---- Contador del bonus (15 días por visitante) ----
+(function(){
+  const el=document.getElementById('cd'); if(!el) return;
+  const KEY='lumora_bonus_deadline';
+  let dl=+localStorage.getItem(KEY);
+  if(!dl || isNaN(dl)){ dl=Date.now()+15*24*3600*1000; localStorage.setItem(KEY,dl); }
+  const D=document.getElementById('cd-d'),H=document.getElementById('cd-h'),M=document.getElementById('cd-m'),S=document.getElementById('cd-s');
+  const p=n=>String(n).padStart(2,'0');
+  function tick(){
+    let diff=dl-Date.now(); if(diff<0) diff=0;
+    D.textContent=Math.floor(diff/86400000);
+    H.textContent=p(Math.floor(diff%86400000/3600000));
+    M.textContent=p(Math.floor(diff%3600000/60000));
+    S.textContent=p(Math.floor(diff%60000/1000));
+  }
+  tick(); setInterval(tick,1000);
+})();
+
 // ---- Galería de producto ----
 function swapMain(thumb){
   const main=document.getElementById('mainImg'); if(!main) return;
