@@ -6,9 +6,10 @@
 
 ## Contenido del repo
 
-### Web (maqueta)
-- `site/` — tienda web (HTML/CSS/JS) con diseño dark premium, modelos 3D (Three.js), galería de producto y copy persuasivo.
-  - Ejecutar en local: `cd site && python3 -m http.server 8765` → http://127.0.0.1:8765
+### Web (en la raíz, lista para Vercel)
+- `index.html`, `styles.css`, `app.js`, `three-scene.js`, `logo.svg` — tienda web con diseño dark premium, modelos 3D (Three.js), galería de producto y copy persuasivo.
+  - Ejecutar en local: `python3 -m http.server 8765` → http://127.0.0.1:8765
+  - Deploy: Vercel detecta el `index.html` en la raíz automáticamente (sin configuración).
 
 ### Estrategia y assets
 - `00-BRAND-BOOK.md` — identidad de marca (enfoque hombre)
