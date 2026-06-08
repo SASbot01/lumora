@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="spark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBE7B0"/>
+      <stop offset="55%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#C9A24B"/>
+    </linearGradient>
+  </defs>
+  <!-- Brand dark background -->
+  <rect width="1080" height="1080" fill="#141414"/>
+  <!-- Logo centered (original 520x140, scaled ~1.65, centered) -->
+  <g transform="translate(110,424) scale(1.6538)">
+    <text x="10" y="78" font-family="'Archivo Black','Arial Black',sans-serif" font-size="74" letter-spacing="6" fill="#F4F1EA">LUM</text>
+    <circle cx="312" cy="52" r="30" fill="none" stroke="#F4F1EA" stroke-width="9"/>
+    <circle cx="334" cy="30" r="13" fill="url(#spark)"/>
+    <circle cx="334" cy="30" r="3.2" fill="#FBE7B0"/>
+    <text x="350" y="78" font-family="'Archivo Black','Arial Black',sans-serif" font-size="74" letter-spacing="6" fill="#F4F1EA">RA</text>
+    <line x1="12" y1="104" x2="240" y2="104" stroke="url(#line)" stroke-width="2"/>
+    <text x="12" y="126" font-family="'Inter','Helvetica Neue',sans-serif" font-size="15" letter-spacing="7" fill="#C9A24B">TRABAJA TU VERSIÓN</text>
+  </g>
+</svg>
