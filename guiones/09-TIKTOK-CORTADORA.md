@@ -56,6 +56,21 @@
 - **PRUEBA [12-16s]** "Esto es Lumora. La máquina que yo aprobaría."
 - **OFERTA+CTA [16-20s]** "Verte impecable cada día empieza en bio."
 
+## AD 7 — VERANO ☀️ (estacional, alto alcance)
+- **HOOK [0-3s]** (en la barbería, camiseta, ambiente veraniego) "Llega el verano y NO vas a pagar un corte cada semana de vacaciones."
+- **PROBLEMA [3-8s]** "Festivales, playa, fotos… y tú con el cuello disparado y sin barbero cerca."
+- **DEMO [8-15s]** (haces un repaso/contorno rápido a un cliente) "Te la llevas a cualquier sitio. Apura a 0mm, batería para 3 horas."
+- **OFERTA+CTA [15-20s]** "Este verano, impecable allá donde vayas. -10% en bio."
+- *Variantes de hook:* "El imprescindible de tu maleta este verano." / "Vete de vacaciones sin depender del barbero."
+
+## AD 8 — REGALO PARA TU CHICO 🎁❤️ (público: mujeres)
+- **HOOK [0-3s]** (Jerico a cámara) "Chicas, ¿queréis que vuestro novio vaya siempre arreglado? Esto es el regalo perfecto."
+- **DEMO [3-11s]** (muestras lo fácil que es: un repaso limpio en un cliente) "Hasta en casa queda de barbería. Y no tiene pérdida."
+- **PRUEBA [11-16s]** "Se la regalas y deja de estar 3 semanas sin pasar por la barbería 😏"
+- **OFERTA+CTA [16-20s]** "El regalazo que SIEMPRE acierta. -10% en bio."
+- *Nota de segmentación:* lánzalo a **mujeres 20-45** (novia/pareja) y sube en fechas clave (San Valentín, Navidad, cumpleaños).
+- *Variantes de hook:* "El regalo para tu chico que no falla." / "Deja de no saber qué regalarle."
+
 ---
 
 ## 🪝 BANCO DE HOOKS (voz de barbero, para testear en ads)
