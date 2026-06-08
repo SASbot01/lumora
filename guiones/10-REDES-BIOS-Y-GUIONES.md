@@ -7,23 +7,26 @@
 ---
 
 ## 📸 BIO INSTAGRAM (máx. 150 caracteres)
-**Opción A (recomendada):**
+**Bio ACTUAL (la que usamos):**
 ```
-LUMORA · Grooming masculino ✂️
-Corte de barbería en tu casa — Zero-Gapped 0mm
-Creada por un barbero pro 💈
-👇 Tu mejor versión
+Cuidarte no es presumir, es respeto propio 💈
+Cuidado masculino simple, con resultado de barbería
+Creada por @jericostyle
+🔗 lumora-alpha-eight.vercel.app
 ```
-**Opción B (directa a venta):**
+
+**Alternativa (directa a venta):**
 ```
 La cortadora que jubila a tu barbero 💈
 Acabado pro · Inalámbrica · IPX7
 +2.000 hombres ya se cortan en casa
-👇 Pилла la tuya con -10%
+👇 Píllala con -10%
 ```
 - **Nombre del perfil (campo "Nombre"):** `Lumora | Cortadora Pro` (esto pesa en búsquedas).
 - **Categoría:** Marca / Productos de belleza.
-- **Link in bio:** usa la web (o Linktree) → botón "Comprar -10%".
+- **Sitio web (campo de enlace clicable):** `https://lumora-alpha-eight.vercel.app/`
+  - ⚠️ En IG la URL escrita en el texto de la bio NO es clicable: el enlace real va en el campo "Sitio web" / "Añadir enlaces".
+- **Foto de perfil:** `perfil/lumora-perfil.png`.
 
 ## 🎵 BIO TIKTOK (máx. 80 caracteres)
 **Opción A:**
