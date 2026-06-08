@@ -222,8 +222,12 @@ section.block{position:relative;padding:110px 0;z-index:1}
 .card .pr{font-family:'Playfair Display';font-size:26px}
 .card .pr small{color:var(--muted);font-size:14px;text-decoration:line-through;font-family:Inter;font-weight:400;margin-left:6px}
 .card .btn{padding:13px 20px;font-size:12px}
-.card.soon{opacity:.96}
-.card.soon .badge.pill2{background:rgba(255,255,255,.08);color:var(--muted);border-color:var(--line)}
+.card.soon .ph img{filter:grayscale(.6) brightness(.5)}
+.card.soon .ph::after{content:"Próximamente";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display';font-weight:800;letter-spacing:3px;color:var(--text);background:rgba(10,10,10,.5);z-index:3;font-size:20px;text-transform:uppercase}
+.card.soon .badge.pill.tagp{background:rgba(255,255,255,.1);color:var(--muted);border-color:var(--line)}
+.btn.soon{background:transparent;border:1px solid var(--line);color:var(--muted);cursor:not-allowed}
+.btn.soon:hover{transform:none;box-shadow:none}
+.btn.soon::after{display:none}
 @media(max-width:860px){.shop{grid-template-columns:1fr}}
 
 /* GALLERY */
