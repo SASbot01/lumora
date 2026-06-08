@@ -75,7 +75,7 @@ document.querySelectorAll('.tilt, .product .media').forEach(card=>{
 // ---- Demo actions ----
 // 👉 PEGA AQUÍ tu link de pago (Stripe Payment Link o Shopify) para vender de verdad.
 //    Ej: const CHECKOUT_URL = "https://buy.stripe.com/xxxxx";
-const CHECKOUT_URL = "";
+const CHECKOUT_URL = "https://buy.stripe.com/fZu8wO1YfcBvexDcXu5kk0c";
 function addCart(){
   if(CHECKOUT_URL){ location.href = CHECKOUT_URL; return; }
   alert("🛒 (Demo) Aún no hay pasarela conectada.\nPega tu link de pago en CHECKOUT_URL (app.js) para empezar a cobrar.");
