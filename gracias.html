@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Gracias por tu pedido! · LUMORA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="logo.svg">
+<style>
+  .ty{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;position:relative;z-index:3}
+  .ty .box{max-width:640px}
+  .ty .check{width:96px;height:96px;border-radius:50%;margin:0 auto 24px;display:flex;align-items:center;justify-content:center;font-size:48px;color:#141414;background:linear-gradient(140deg,var(--gold2),var(--gold));box-shadow:0 12px 40px rgba(201,162,75,.4)}
+  .ty h1{font-size:clamp(36px,7vw,64px);text-transform:uppercase;margin-bottom:14px}
+  .ty p{color:var(--muted);font-size:18px}
+  .ty .logo{margin-bottom:34px}
+  .ty .logo img{height:44px}
+  .ty .socials{margin-top:14px;color:var(--text)}
+  .ty .socials a{color:var(--gold);font-weight:700}
+</style>
+</head>
+<body>
+<div class="aurora"></div>
+<div class="bg-glow"></div>
+<div class="grain"></div>
+
+<section class="ty">
+  <div class="box">
+    <div class="logo"><img src="logo.svg" alt="LUMORA"></div>
+    <div class="check">✓</div>
+    <h1>¡Gracias por tu pedido!</h1>
+    <p>Tu <b style="color:var(--text)">Cortadora Pro Zero-Gapped</b> ya está en camino. Recibirás un email con la confirmación y el seguimiento.</p>
+
+    <div class="bonus" style="max-width:520px;margin:28px auto;text-align:left">
+      <span class="bonus-tag">🎁 Tu bonus está incluido</span>
+      <p>Junto a tu pedido recibirás el <b>videotutorial de Jerico</b> para arreglarte el pelo con la máquina como un profesional. ¡Atento al email!</p>
+    </div>
+
+    <p class="socials">Mientras llega, sigue a nuestro barbero 👉 <a href="https://instagram.com/jericostyle" target="_blank" rel="noopener">@jericostyle</a></p>
+
+    <p style="margin-top:34px"><a href="/" class="btn">Volver a la tienda</a></p>
+  </div>
+</section>
+</body>
+</html>
