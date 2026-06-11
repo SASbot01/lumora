@@ -77,10 +77,16 @@ document.querySelectorAll('.tilt, .product .media').forEach(card=>{
 //    Ej: const CHECKOUT_URL = "https://buy.stripe.com/xxxxx";
 const CHECKOUT_URL = "https://buy.stripe.com/fZu8wO1YfcBvexDcXu5kk0c";
 function addCart(){
+  if(typeof lumoraTrack==='function') lumoraTrack('InitiateCheckout',{content_name:'Cortadora Pro Zero-Gapped',content_ids:['cortadora-pro'],value:39.95,currency:'EUR'});
   if(CHECKOUT_URL){ location.href = CHECKOUT_URL; return; }
   alert("🛒 (Demo) Aún no hay pasarela conectada.\nPega tu link de pago en CHECKOUT_URL (app.js) para empezar a cobrar.");
 }
-function subscribe(e){e.preventDefault();alert("✅ (Demo) ¡Suscrito! En la tienda real esto entra en Klaviyo y dispara el email de -10%.");return false;}
+function subscribe(e){
+  e.preventDefault();
+  if(typeof lumoraTrack==='function') lumoraTrack('Lead',{content_name:'Newsletter -10%'});
+  alert("✅ (Demo) ¡Suscrito! En la tienda real esto entra en Klaviyo y dispara el email de -10%.");
+  return false;
+}
 
 // ---- 3D scenes (cortadoras flotantes) ----
 addEventListener('load',()=>{

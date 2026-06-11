@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="logo.svg">
 </head>
-<body>
+<body data-page="home">
 
 <div class="aurora"></div>
 <div class="bg-glow"></div>
@@ -111,7 +111,7 @@
     <div class="reveal">
       <div class="media" id="prodMedia">
         <div class="glow"></div>
-        <span class="badge pill">Más vendido</span>
+        <span class="badge pill">Producto estrella</span>
         <img id="mainImg" src="fotos/maquina-1.jpg" alt="Cortadora Pro Zero-Gapped LUMORA">
         <div class="seal">
           <svg viewBox="0 0 120 120" class="sealsvg" xmlns="http://www.w3.org/2000/svg">
@@ -136,7 +136,7 @@
     <div class="reveal d2">
       <div class="eyebrow">Lumora · Cut</div>
       <h2>Cortadora Pro Zero-Gapped</h2>
-      <div class="stars">★★★★★ <span style="color:var(--muted);font-size:14px">(214 reseñas)</span></div>
+      <div class="stars" style="color:var(--gold);font-size:15px">💈 Diseñada y aprobada por un barbero profesional</div>
       <div class="price">39,95 € <small>54,95 €</small></div>
       <p style="color:var(--muted)">El acabado de barbería, en tu mano. Cuchilla a 0mm para degradados y contornos perfectos. La que usan los que siempre van impecables.</p>
       <ul>
@@ -177,13 +177,13 @@
     <div class="shop">
 
       <div class="card reveal d1">
-        <div class="ph"><span class="badge pill tagp">Más vendido</span>
+        <div class="ph"><span class="badge pill tagp">Producto estrella</span>
           <img src="fotos/maquina-1.jpg" alt="Cortadora Pro Zero-Gapped">
         </div>
         <div class="body">
           <div class="cat">Cut · Barber tool</div>
           <h3>Cortadora Pro Zero-Gapped</h3>
-          <div class="stars">★★★★★ <span style="color:var(--muted)">(214)</span></div>
+          <div class="stars" style="color:var(--gold);font-size:13px">💈 Aprobada por @jericostyle</div>
           <p>Máquina profesional inalámbrica con cuchilla a 0mm. El acabado del barbero, en tu casa.</p>
           <ul class="feat"><li>Cuchilla Zero-Gapped (0mm)</li><li>Inalámbrica · USB-C</li><li>Acabado profesional</li></ul>
           <div class="pricerow"><div class="pr">39,95 € <small>54,95 €</small></div><button class="btn" onclick="addCart()">Añadir →</button></div>
@@ -197,7 +197,7 @@
         <div class="body">
           <div class="cat">Skin · Microneedling</div>
           <h3>Derma Roller de Titanio</h3>
-          <div class="stars">★★★★★ <span style="color:var(--muted)">(128)</span></div>
+          <div class="stars" style="color:var(--muted);font-size:13px">Disponible pronto</div>
           <p>540 microagujas de titanio. Mejora el aspecto de la piel y la absorción de tus tratamientos.</p>
           <ul class="feat"><li>540 microagujas titanio</li><li>Aspecto más firme</li><li>Reutilizable</li></ul>
           <div class="pricerow"><div class="pr" style="color:var(--muted)">Pronto</div><button class="btn soon" disabled>Próximamente</button></div>
@@ -211,7 +211,7 @@
         <div class="body">
           <div class="cat">Hair · Cuidado</div>
           <h3>Sérum Capilar &amp; Barba</h3>
-          <div class="stars">★★★★★ <span style="color:var(--muted)">(54)</span></div>
+          <div class="stars" style="color:var(--muted);font-size:13px">Disponible pronto</div>
           <p>Fórmula nutritiva que fortalece y cuida cabello y barba, para un aspecto más denso y sano.</p>
           <ul class="feat"><li>Nutre el cuero cabelludo</li><li>Aspecto más denso</li><li>Apto para barba</li></ul>
           <div class="pricerow"><div class="pr" style="color:var(--muted)">Pronto</div><button class="btn soon" disabled>Próximamente</button></div>
@@ -223,17 +223,18 @@
   </div>
 </section>
 
-<!-- REVIEWS (sin caras stock) -->
+<!-- CONFIANZA REAL (sin reseñas inventadas) -->
 <section class="block" id="resultados">
   <div class="wrap">
-    <div class="eyebrow reveal">Lo dicen ellos</div>
-    <h2 class="reveal d1">Adiós barbería.</h2>
+    <div class="eyebrow reveal">Por qué confiar</div>
+    <h2 class="reveal d1">Sin humo. Solo lo real.</h2>
+    <p class="lead reveal d2" style="max-width:660px">Somos una marca nueva: no te vamos a inventar reseñas. Lo que sí tienes — la máquina que un barbero profesional aprueba y tu compra protegida.</p>
     <div class="reviews">
-      <div class="review reveal d1"><div class="top"><div class="av-i">C</div><div><div style="font-weight:700">Carlos M.</div><div class="who">Madrid</div></div></div><div class="stars">★★★★★</div><p>"Llevo 4 meses cortándome yo. He recuperado lo que costó en la primera semana."</p></div>
-      <div class="review reveal d2"><div class="top"><div class="av-i">J</div><div><div style="font-weight:700">Javi R.</div><div class="who">Valencia</div></div></div><div class="stars">★★★★★</div><p>"El apurado a 0mm es de barbería de verdad. Los contornos quedan perfectos."</p></div>
-      <div class="review reveal d3"><div class="top"><div class="av-i">D</div><div><div style="font-weight:700">Dani L.</div><div class="who">Sevilla</div></div></div><div class="stars">★★★★★</div><p>"Potente y silenciosa. La batería aguanta un montón. Brutal por el precio."</p></div>
+      <div class="review reveal d1"><div class="stars" style="font-size:26px">💈</div><p><b>Aprobada por @jericostyle</b><br>Barbero profesional. La máquina que él mismo usaría para un acabado de barbería en casa.</p></div>
+      <div class="review reveal d2"><div class="stars" style="font-size:26px">↩️</div><p><b>14 días de devolución</b><br>Pruébala sin riesgo. Si no es lo que esperabas, te devolvemos el dinero.</p></div>
+      <div class="review reveal d3"><div class="stars" style="font-size:26px">🚚</div><p><b>Envío 24-72h · Pago seguro</b><br>Recíbela rápido y paga con total seguridad en una pasarela cifrada.</p></div>
     </div>
-    <p class="micro" style="margin-top:18px;color:var(--muted)">* Reseñas de ejemplo — se sustituyen por reseñas reales con foto/vídeo al lanzar.</p>
+    <p class="micro reveal" style="margin-top:18px;color:var(--muted)">¿Quieres ser de los primeros en dejar una reseña real (con foto)? Te damos un detalle a cambio.</p>
   </div>
 </section>
 
@@ -268,16 +269,26 @@
         <p>Grooming masculino de resultados. Trabaja tu versión.</p>
       </div>
       <div><h4>Tienda</h4><ul><li><a href="#producto">Cortadora Pro</a></li><li><a href="#tienda">Derma Roller</a></li><li><a href="#tienda">Sérum</a></li></ul></div>
-      <div><h4>Ayuda</h4><ul><li><a href="#">Envíos</a></li><li><a href="#">Devoluciones</a></li><li><a href="#">FAQ</a></li><li><a href="#">Contacto</a></li></ul></div>
-      <div><h4>Legal</h4><ul><li><a href="#">Privacidad (RGPD)</a></li><li><a href="#">Aviso legal</a></li><li><a href="#">Términos</a></li></ul></div>
-      <div><h4>Síguenos</h4><ul><li><a href="#">TikTok</a></li><li><a href="#">Instagram</a></li></ul></div>
+      <div><h4>Ayuda</h4><ul><li><a href="envios-devoluciones.html">Envíos</a></li><li><a href="envios-devoluciones.html#devoluciones">Devoluciones</a></li><li><a href="mailto:[email]">Contacto</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="privacidad.html">Privacidad (RGPD)</a></li><li><a href="aviso-legal.html">Aviso legal</a></li><li><a href="terminos.html">Términos</a></li></ul></div>
+      <div><h4>Síguenos</h4><ul><li><a href="https://www.tiktok.com/@lumora_styleshop" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://instagram.com/lumora_styleshop" target="_blank" rel="noopener">Instagram</a></li></ul></div>
     </div>
-    <div class="bottom">© 2026 LUMORA · Maqueta local de demostración · Construido por Claude</div>
+    <div class="bottom">© 2026 LUMORA · <a href="privacidad.html">Privacidad</a> · <a href="aviso-legal.html">Aviso legal</a> · <a href="terminos.html">Términos</a></div>
   </div>
 </footer>
 
+<!-- Banner de consentimiento RGPD (obligatorio en la UE) -->
+<div id="consent" class="consent" style="display:none">
+  <p>Usamos cookies propias y de terceros (Meta) para analítica y publicidad personalizada. Puedes aceptarlas o rechazarlas. Más info en la <a href="privacidad.html">Política de Privacidad</a>.</p>
+  <div class="consent-btns">
+    <button id="consent-reject" class="btn ghost sm" type="button">Rechazar</button>
+    <button id="consent-accept" class="btn sm" type="button">Aceptar</button>
+  </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="three-scene.js"></script>
+<script src="consent-pixel.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
